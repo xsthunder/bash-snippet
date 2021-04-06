@@ -8,3 +8,11 @@ output to file, also terminal
 screen -R train
 python -u train.py  | tee -a bz_64_ep_40.log
 ```
+
+## watch log
+
+```
+while true; tail  segment_pad_id_1_retrain_训练_bz_64_ep_40.py; do tail bz_64_ep_40.log ; sleep 5; done
+```
+
+`watch` result in bad format
