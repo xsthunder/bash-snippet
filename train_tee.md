@@ -9,6 +9,8 @@ screen -R train
 python -u train.py  | tee -a bz_64_ep_40.log
 ```
 
+wait
+
 ## watch log
 
 ```
