@@ -9,6 +9,10 @@ screen -R train
 python -u train.py  | tee -a bz_64_ep_40.log
 ```
 
+### notes
+
+1. won't work for opennmt, which use stderr for logging
+
 wait
 
 ## watch log
