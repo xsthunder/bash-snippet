@@ -1,4 +1,5 @@
 # https://keras.io/api/layers/base_layer/#layer-class
+from bert4keras.layers import *
 
 class SimpleDense(Layer):
 
